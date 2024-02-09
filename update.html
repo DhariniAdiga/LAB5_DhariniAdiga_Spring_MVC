@@ -1,0 +1,5 @@
+<!-- update.html -->
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <h2>Update Employee</h2>
+    <form th:action="@{/updateEmployee/{id}(id=${employee.id})}" th:object="${employee}" method="
